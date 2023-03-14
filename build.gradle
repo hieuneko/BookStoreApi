@@ -43,6 +43,8 @@ dependencies {
     implementation 'org.flywaydb:flyway-core'
     runtimeOnly 'org.postgresql:postgresql'
 
+    implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.13.3'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
